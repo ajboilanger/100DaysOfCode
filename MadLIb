@@ -1,0 +1,10 @@
+loop = 1
+while (loop < 10):
+    noun = input("Enter a noun: ")
+    plural_noun = input("Enter a plural noun: ")
+    noun_2 = input("Enter a noun: ")
+    place = input("Enter a place: ")
+    adjective = input("Enter an adjective (Descriptive word): ")
+    noun_3 = input("Enter a noun: ")
+print("A Story of Sorts")
+print("You should be kind to your", noun, "-footed", plural_noun)
