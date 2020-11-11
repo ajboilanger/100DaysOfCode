@@ -1,10 +1,20 @@
-loop = 1
-while (loop < 10):
+import random
+number_generator = random.randint(1, 5)
+print(number_generator)
+
+if number_generator == 1:
+    name = input("Enter a name: ")
+    adjective = input("Enter an adjective: ")
     noun = input("Enter a noun: ")
-    plural_noun = input("Enter a plural noun: ")
-    noun_2 = input("Enter a noun: ")
-    place = input("Enter a place: ")
-    adjective = input("Enter an adjective (Descriptive word): ")
-    noun_3 = input("Enter a noun: ")
-print("A Story of Sorts")
-print("You should be kind to your", noun, "-footed", plural_noun)
+
+    print("Hall Pass")
+    print("Please excuse " + name + ", who is far too " +
+          adjective + " to attend " + noun + " class.")
+elif number_generator == 2:
+    print("This would be the second madlib")
+elif number_generator == 3:
+    print("This would be the third madlib")
+elif number_generator == 4:
+    print("This would be the forth madlib")
+else:
+    print("This would be the fifth madlib")
