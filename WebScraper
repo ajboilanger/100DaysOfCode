@@ -1,0 +1,9 @@
+import requests
+from bs4 import BeautifulSoup
+
+url = "https://www.monster.com/jobs/search/?q=Programmer&where=New-York"
+response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
+html = response.content
+
+soup = BeautifulSoup(html, "html.parser")
+print(soup.prettify())
