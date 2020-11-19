@@ -1,0 +1,9 @@
+letters = ["a", "b", "c"]
+matrix = [[0, 1], [2, 3]]
+zeroes = [0] * 5
+combined = zeroes + letters
+numbers = list(range(20))
+chars = list("Hello World")
+print(combined)
+print(numbers)
+print(len(chars))
