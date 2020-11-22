@@ -1,3 +1,4 @@
+# this creates a list of numbers containing 1 through 3
 numbers = [1, 2, 3]
 # first = numbers[0]
 # second = numbers[1]

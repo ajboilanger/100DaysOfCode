@@ -1,9 +1,22 @@
+# Comments are above the line of code which they reference
+
+# square brackes indicate a list
 letters = ["a", "b", "c"]
+# a matrix is a list of lists
 matrix = [[0, 1], [2, 3]]
+# you can perform mathematic equations against lists, this would print 5 zeroes.
 zeroes = [0] * 5
+# this would essentially concatenate the two lists, leading to an out put of [0,0,0,0,0,"a","b","b"]
 combined = zeroes + letters
+# this would create a list using the range function that prints numbers from 0 to 19.
 numbers = list(range(20))
+# this would create a list of each letter in the phrase "Hello World"
 chars = list("Hello World")
+# this prints the zeroes variable
+print(zeroes)
+# this prints the combined variable
 print(combined)
+# this prints the numbers variable
 print(numbers)
+# this prints the length of the chars variable
 print(len(chars))
